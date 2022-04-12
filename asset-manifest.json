@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/recetas/static/css/main.f9397af9.css",
-    "main.js": "/recetas/static/js/main.d005e00d.js",
+    "main.js": "/recetas/static/js/main.39a20d0f.js",
     "static/media/banner.jpg": "/recetas/static/media/banner.f973f3624721f9fcec92.jpg",
     "static/media/icecream.jpg": "/recetas/static/media/icecream.76d4f2e4782bf8b735e8.jpg",
     "static/media/ensalada-de-kiwi.jpg": "/recetas/static/media/ensalada-de-kiwi.e03deca424f3363fdded.jpg",
@@ -16,10 +16,10 @@
     "static/media/logo.jpg": "/recetas/static/media/logo.4cf74ec765903a502a97.jpg",
     "index.html": "/recetas/index.html",
     "main.f9397af9.css.map": "/recetas/static/css/main.f9397af9.css.map",
-    "main.d005e00d.js.map": "/recetas/static/js/main.d005e00d.js.map"
+    "main.39a20d0f.js.map": "/recetas/static/js/main.39a20d0f.js.map"
   },
   "entrypoints": [
     "static/css/main.f9397af9.css",
-    "static/js/main.d005e00d.js"
+    "static/js/main.39a20d0f.js"
   ]
 }
