@@ -1,0 +1,59 @@
+/* =============== Navbar =============== */
+
+.navbar__content {
+  align-items: center;
+  background-color: $quaternary;
+  display: flex;
+  height: 5rem;
+  justify-content: space-between;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+    padding: 0 1rem;
+  }
+}
+
+.navbar__header {
+  display: flex;
+}
+
+.navbar__logo {
+  height: 60px;
+  margin-top: 3px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.navbar__link {
+  list-style: none;
+}
+
+nav ul li a {
+  color: $secondary;
+  margin-right: 15px;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-weight: bold;
+
+  transition: color 0.3s ease;
+  &:hover {
+    color: darken($color: white, $amount: 40);
+    font-weight: bold;
+  }
+}
+
+.isActive {
+  color: $white;
+  background-color: $secondary;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: none;
+}

@@ -1,0 +1,51 @@
+/* =============== Home =============== */
+
+.home__image {
+  height: calc(100vh - 60px);
+  width: 100%;
+
+  @media (max-width: 768px) {
+    height: 100vh;
+    object-fit: cover;
+  }
+}
+
+.home__banner-title {
+  color: $white;
+  font-family: "Pacifico", cursive;
+  font-size: 4.0625rem;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+
+  @media (max-width: 768px) {
+    font-size: 3.125rem;
+  }
+}
+
+.home__description {
+  padding: 2.5rem;
+  text-align: center;
+}
+
+.home__description p {
+  color: $light_grey;
+  font-size: 1.35rem;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.home__description-title {
+  color: $secondary;
+  font-family: "Pacifico", cursive;
+  font-size: 3.1875rem;
+
+  @media (max-width: 768px) {
+    font-size: 2.125rem;
+    padding: 0.5rem;
+  }
+}

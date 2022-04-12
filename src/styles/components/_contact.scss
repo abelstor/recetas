@@ -1,0 +1,79 @@
+/* =============== Contacto =============== */
+
+.background__image {
+  background-image: url("../../assets/img/icecream.jpg");
+  background-size: cover;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__title {
+  color: $secondary;
+  font-size: 2rem;
+}
+
+.contact__left {
+  width: 95%;
+}
+
+.contact__left-form {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-top: 20px;
+  .btn {
+    width: 30%;
+  }
+}
+
+.contact__left-form input,
+.contact__left-form form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid $dark_grey;
+  margin-bottom: 2em;
+}
+
+.contact__right {
+  padding: 50px 0;
+  width: 95%;
+}
+
+.contact__right-info {
+  padding: 0 30px;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.contact__right-details {
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .contact {
+    justify-content: space-around;
+    height: calc(100vh - 130px);
+    display: flex;
+    flex-direction: row;
+  }
+  .contact__right {
+    flex-direction: row;
+    width: 40%;
+  }
+
+  .contact__left {
+    flex-direction: row;
+    width: 40%;
+  }
+}
+
+.btn {
+  padding: 10px;
+  width: 30%;
+  border-radius: 5px;
+}

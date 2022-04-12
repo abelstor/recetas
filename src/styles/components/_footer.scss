@@ -1,0 +1,30 @@
+/* =============== Footer =============== */
+
+.footer {
+  align-items: center;
+  bottom: 0;
+  background-color: $quaternary;
+  display: flex;
+  height: 2.5rem;
+  justify-content: center;
+  padding: 5px;
+  position: relative;
+
+  &__description {
+    color: $secondary;
+    font-family: "Pacifico", cursive;
+    line-height: 2.5;
+  }
+
+  &__rights {
+    color: $dark_grey;
+    font-size: 0.7rem;
+    margin-top: 5px;
+  }
+
+  &__copy {
+    color: $dark_grey;
+    font-size: 1.1rem;
+    margin-top: 5px;
+  }
+}
