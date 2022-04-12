@@ -5,7 +5,6 @@
 ### Tools
 
 - React JS
-- Redux
 - Scss
 
 `npm install`
